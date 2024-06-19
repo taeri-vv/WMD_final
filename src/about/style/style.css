@@ -111,24 +111,48 @@ header {
   line-height: normal;
   padding-bottom: 1.25rem;
 }
-.card__fav-img {
+.img__cat {
   display: flex;
-  gap: 0;
 }
-.card__fav-img .cat-1 {
+.img__cat-1 {
   width: 218px;
   height: 291px;
 }
-.card__fav-img .cat-2 {
+.img__cat-2 {
   width: 218px;
   height: 291px;
 }
-.card__fav-img .cat-3 {
+.img__cat-3 {
   width: 219px;
   height: 291px;
 }
 
+.img__grogu {
+  display: flex;
+}
+.img__grogu-1 {
+  width: 214px;
+  height: 285px;
+}
+.img__grogu-2 {
+  width: 217px;
+  height: 285px;
+}
+.img__grogu-3 {
+  width: 214px;
+  height: 285px;
+}
+
 .cat {
+  padding-bottom: 2.5rem;
+  color: #617fea;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.grogu {
   padding-bottom: 2.5rem;
   color: #617fea;
   font-size: 2.5rem;
