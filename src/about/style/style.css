@@ -57,34 +57,42 @@ header {
 }
 
 .card__profile {
-  width: 21.25rem;
-  height: 28.125rem;
+  width: 23.75rem;
+  height: 33rem;
   padding-inline: 40px;
   padding-block: 2.5rem;
   width: 21.25rem;
   background-color: #333;
   border-radius: 0.75rem;
 }
-
-.img__taeri {
-  width: 100%;
-  border-radius: 0.25rem;
-}
-
 .card__profile-title {
-  color: #404040;
-  font-size: 2.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 0.5rem;
+  color: #fff;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-
 .card__profile-subtitle {
-  color: #404040;
-  font-size: 1.25rem;
+  color: #aaa;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.card__profile-text {
+  padding-top: 1.8rem;
+  color: #d6d6d6;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.img__taeri {
+  width: 100%;
+  border-radius: 0.25rem;
 }
 
 .card__fav {
@@ -108,13 +116,16 @@ header {
   gap: 0;
 }
 .card__fav-img .cat-1 {
-  width: 100%;
+  width: 218px;
+  height: 291px;
 }
 .card__fav-img .cat-2 {
-  width: 100%;
+  width: 218px;
+  height: 291px;
 }
 .card__fav-img .cat-3 {
-  width: 100%;
+  width: 219px;
+  height: 291px;
 }
 
 .cat {

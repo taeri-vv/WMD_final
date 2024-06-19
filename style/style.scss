@@ -23,6 +23,10 @@ ul {
   column-gap: 18.75rem;
 }
 
+a {
+  text-decoration-line: none;
+}
+
 header {
   padding-inline: 6rem;
   height: 7.5rem;
@@ -41,6 +45,7 @@ header {
 .about.doodle.etc {
   :hover {
     color: #008545;
+    cursor: grab;
   }
 }
 
